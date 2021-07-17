@@ -1,0 +1,150 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>PosdcastChannel</title>
+</head>
+<body>
+
+    <div id="header">
+        <img id="logo" src="assets/logo.svg" alt="">
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="#episodio">EPISODIOS</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#entrevista">ENTREVISTAS</a></li>
+                <li><a href="#topicos">TÓPICOS</a></li>
+            </ul>
+        </nav>
+        <input type="checkbox" id="hamburger" class="checkbox" />
+        <label for="hamburger" class="btn-label">
+            <div class="menu-open">
+                <span class="top-line"></span>
+                <span class="middle-line"></span>
+                <span class="bottom-line"></span>
+            </div>
+            <div class="menu-close">
+                <span class="top-line"></span>
+                <span class="middle-line"></span>
+                <span class="bottom-line"></span>
+            </div>
+        </label>
+        <ul class="menu-mobile-open">
+            <li><a href="#episodio">EPISODIOS</a></li>
+            <li><a href="#nosotros">NOSOTROS</a></li>
+            <li><a href="#entrevista">ENTREVISTAS</a></li>
+            <li><a href="#topicos">TÓPICOS</a></li>
+        </ul>
+        <!-- <ul class="menu-mobile-close">
+            <li><a href="#episodio">EPISODIOS</a></li>
+            <li><a href="#nosotros">NOSOTROS</a></li>
+            <li><a href="#entrevista">ENTREVISTAS</a></li>
+            <li><a href="#topicos">TÓPICOS</a></li>
+        </ul> -->
+    </div>
+
+
+
+
+    <div class="texthead">
+        <div class="contentexto">
+            <h1>Hello <span class="rayado">world</span> pale blue dot<span class="punto">.</span></h1>
+        </div>
+        <div class="contenedorp">
+            <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos
+                los jueves cada 15 días.</p>
+        </div>
+
+        <div class="buttonhead">
+            <input onclick="location.href='#nosotros'" type="button" value="CONOCÉ MÁS">
+        </div>
+    </div>
+    </div>
+    <section id="episodio">
+        <div class="boxmusica">
+            <div class="fondo"></div>
+            <div>
+                <p id="episodios">Episodios</p>
+            </div>
+            <div class="contenedormusica">
+                <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
+                    frameborder="0"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"
+                    frameborder="0"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
+                    frameborder="0"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
+                    frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="nosotros" id="nosotros">
+        <img src="assets/phone.png" alt=".assets/phone.png">
+        <div class="venimos">
+            <h2>De dónde venimos</h2>
+            <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+                Universe, are challenged by this point of pale light.</p>
+            <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness,
+                there is no hint that help will come from elsewhere to save us from ourselves.</p>
+        </div>
+    </section>
+    <section class="invitados" id="entrevista">
+        <h2>Invitadas/os estelares</h2>
+        <div class="contenedorfotos">
+            <img src="assets/grace-hopper.png" alt="grace-hopper">
+            <img src="assets/Katie-Bouman.png" alt="Katie-Bouman">
+            <img src="assets/Margaret_Hamilton.png" alt="Margaret_Hamilton">
+            <img src="assets/An E.R.A.Univac 1103 computer in the 1950s.png"
+                alt="An E.R.A.Univac 1103 computer in the 1950s">
+            <img src="assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+                alt="Computer operators with an Eniac — the world’s first programmable general-purpose computer">
+            <img src="assets/susan-kare.png" alt="susan-kare">
+        </div>
+    </section>
+    <section class="temas" id="topicos">
+        <h2>Algunos de nuestros temas</h2>
+        <div>
+            <div class="contedortemas">
+                <div class="icontopic">
+                    <img src="assets/icon1.svg" alt="icon1">
+                    <h4>Trabajo remoto</h4>
+                </div>
+                <div class="icontopic">
+                    <img src="assets/icon2.svg" alt="icon2">
+                    <h4>Repensando la programación</h4>
+                </div>
+                <div class="icontopic">
+                    <img src="assets/icon3.svg" alt="icon3">
+                    <h4>Bases del código</h4>
+                </div>
+                <div class="icontopic">
+                    <img src="assets/icon4.svg" alt="icon4">
+                    <h4>Seguridad informática</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ultima-novedades">
+        <div class="fondo"></div>
+        <div class="contenidoultimo">
+            <h2>¿Querés las últimas novedades?</h2>
+            <input onclick="location.href='#episodio'" class="buttomfin" type="button" value="ESCUCHÁ LOS EPISODIOS">
+        </div>
+    </section>
+    <section class="piepagina">
+        <p>© 2019— Hello blue pale dot</p>
+        <div class="iconspie">
+            <a href="https://www.spotify.com/" target="_blank"><i class="fa fa-spotify"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://web.telegram.org/" target="_blank"><i class="fa fa-telegram"></i></a>
+        </div>
+    </section>
+</body>
+
+</html>
